@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/coach.js": {
+      "maxDuration": 20
+    }
+  }
+}
