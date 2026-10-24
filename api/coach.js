@@ -29,7 +29,13 @@ module.exports = async function handler(req, res) {
     const userRes = await fetch(process.env.SUPABASE_URL.replace(/\/$/, '') + '/auth/v1/user', {
       headers: { apikey: process.env.SUPABASE_ANON_KEY, Authorization: auth }
     });
-    if (!userRes.ok) return send(res, 401, { error: 'Oturum doğrulanamadı. Yeniden giriş yap.' });
+    if (!userRes.ok) {
+  const authError = await userRes.text().catch(() => '');
+  console.error('Supabase auth error:', userRes.status, authError);
+  return send(res, 401, {
+    error: 'Oturum doğrulanamadı (Supabase HTTP ' + userRes.status + '). Yeniden giriş yap.'
+  });
+}
   } catch { return send(res, 503, { error: 'Hesap doğrulama hizmetine ulaşılamadı.' }); }
 
   const context = body.context && typeof body.context === 'object' ? JSON.stringify(body.context).slice(0, MAX_CONTEXT_CHARS) : '{}';
