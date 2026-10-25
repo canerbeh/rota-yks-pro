@@ -1,37 +1,27 @@
-ROTA YKS — TOPLU KOÇ + HAZIR MÜFREDAT KATALOĞU v6
+ROTA YKS — GELİŞTİRME SÜRÜMÜ v7
 
-İÇERİK
-- index.html: kaynak ekleme ekranına hazır TYT katalogları ve AYT sayısal katalogları entegre edilmiştir; seçilen üniteler ve test adetleri mevcut kitap/ünite veri yapısıyla kaydedilir.
-- api/coach.js, api/health.js, vercel.json: v5 koç bağlantısı ve hata yönetimi düzeltmeleri.
-- mufredat-katalogu.json: aynı katalog verisinin okunabilir yedeği.
+MEVCUT ÖZELLİKLER
+- Önceki v6 özellikleri korunur: TYT/AYT kaynak kütüphanesi ve konu/test sayıları, takvim, görevler, rutinler, kronometre, deneme analizi, notlar, ilerleme ve yapay zekâ koç ekranı.
+- `Ortak Plan` alanı e-posta ile arkadaş daveti, davet kabulü ve bağlantıyı kaldırma akışı sunar.
+- Kullanıcı, kitaplığını açıkça paylaşmayı etkinleştirirse kitap adı, ders/sınav, ünite ve test sayıları bağlantı kurduğu kişiye görünür. Kişisel notlar, denemeler, çalışma kayıtları ve görevler paylaşılmaz.
+- Arkadaşın paylaşılmış kitaplığına göre test çözümü görevi; video/öğretmen bağlantısı, konu çalışması, tekrar, deneme ve serbest metin/program notu yazılabilir.
+- 7 günlük program düzenleyicide her gün için birden fazla görev eklenebilir; başlangıç tarihi ve her günün tarihi ayrı ayrı düzenlenebilir.
+- Gelen görevler arkadaşın takviminde ve görev listesinde görünür. Tamamlama ve 1 veya 2 gün erteleme karşı hesaba kaydedilir; atayan kişi yalnızca durumu izler.
+- Kişisel görevler de ayrıntı penceresinden 1 veya 2 gün ertelenebilir. Erteleme görevin tarihini takvimde ileri alır.
+- Günlük açılışta kapatılabilir “Rutinini unutma” penceresi ve tarihe göre seçilen motivasyon cümlesi gösterilir. Pencere hesap ve gün bazında aynı gün yeniden çıkmaz.
+- Ortak Plan açıkken atanan görevlerin durumu yaklaşık 45 saniyede bir yenilenir; kullanıcı ayrıca elle yenileyebilir.
+- Mobil alt gezinme çubuğu yatay kaydırılabilir hale getirildi.
 
-KAYNAK EKLEME
-1. Kitap adını yaz.
-2. TYT/AYT ve branşı seç.
-3. Hazır listede yalnız o kitapta bulunan ünitelerin yanındaki Test adedi alanlarını doldur. Boş bırakılan üniteler kaydedilmez.
-4. Her ünitenin altında konu başlıklarını açıp görebilirsin. Bu başlıklar kaydedilen ünitelerde de korunur.
-5. Kitapta katalogda olmayan bölüm varsa “Katalogda olmayan ünite” alanından özel ünite ekle. Fotoğraf taraması artık kaynak eklemek için zorunlu değildir.
+PAKET DOSYALARI
+- index.html: v7 arayüzü ve istemci mantığı.
+- api/coach.js, api/health.js, vercel.json: önceki API/deploy dosyaları korunmuştur.
+- mufredat-katalogu.json: kaynak kataloğu.
+- sql/ortak-plan-sistemi.sql: yalnızca yeni ortak plan tabloları, RLS politikaları, kimlik korumaları ve gerekli erişim izinleri.
+- README-V7-KURULUM.txt: hazırlık ve kurulum kontrol listesi.
 
-KATALOG KAPSAMI
-TYT: Türkçe, Matematik, Geometri, Fizik, Kimya, Biyoloji, Tarih, Coğrafya, Felsefe, Din Kültürü.
-AYT sayısal: Matematik, Geometri, Fizik, Kimya, Biyoloji. Edebiyat, tarih/coğrafya-1/2, felsefe grubu, din ve YDT AYT kaynak kataloğuna eklenmemiştir.
-Toplam: 183 ünite grubu.
-
-ÖNEMLİ SINIRLAR
-Bu katalog, YKS test kitaplarında yaygın kullanılan konu başlıklarından oluşturulmuş bir çalışma yardımcısıdır; her yayınevinin içindekiler sırasıyla birebir aynı değildir ve resmî ÖSYM kapsam duyurusunun yerine geçmez. Öğrencinin kullandığı kitapta bulunmayan ünitelerin test sayısı boş bırakılmalıdır. Özel ünite ekleme seçeneği korunmuştur.
-
-MEVCUT VERİLER
-- Supabase tablosu veya şeması değişmez.
-- Eski kayıtlı kitaplar ve üniteler silinmez.
-- Yeni katalog ünitelerinin alt konu başlıkları unit.topics dizisinde saklanır; eski ünitelerde bu alan yoksa uygulama onu boş kabul eder.
-- Paket tam proje dosyaları içerir; içindeki dosyalar proje köküne aynı yollarla yerleştirilmelidir. Önce mevcut projeyi yedekle.
-
-KOÇ API DÜZELTMELERİ
-- Supabase URL'sinde yanlış path eklerinin normalize edilmesi.
-- Oturum doğrulamasına zaman sınırı.
-- Gemini ana model ve yedek modeller, geçici servis hatalarında tekrar deneme.
-- Vercel koç fonksiyonunun azami süresi 60 saniye.
-- Hata logları ve daha somut çalışma verisi odaklı istem.
-
-TEST
-Yerel JavaScript sözdizimi ve JSON/ZIP kontrolleri başarılı. Gerçek Supabase/Gemini anahtarları bu ortamda olmadığı ve interaktif tarayıcı testi çalıştırılamadığı için canlı deployment'ın kesin çalıştığı iddia edilmez.
+VERİ GÜVENLİĞİ VE SINIRLAR
+- Mevcut `yks_user_data` tablosu bu geliştirme SQL'i tarafından değiştirilmez.
+- Ortak plan özellikleri için yeni tablolara ihtiyaç vardır; SQL dosyası canlı Supabase'e otomatik uygulanmamıştır.
+- Günlük hatırlatmanın aynı gün kapatıldığı bilgisi tarayıcı depolamasında tutulur. Diğer kişisel çalışma verileri mevcut uygulamanın önceki kayıt düzenini kullanır.
+- Arkadaşlık bağlantısı, gerçek oturum açmış hesaplar için tasarlanmıştır; demo modunda ortak plan kullanılamaz.
+- Yapay zekâ koçu ve canlı bulut entegrasyonu kullanıcıya ait Vercel/Supabase ayarları olmadan burada uçtan uca test edilemez.

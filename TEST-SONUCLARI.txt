@@ -1,13 +1,24 @@
-YEREL DOĞRULAMA SONUÇLARI
-- index.html uygulama JavaScript'i: node --check PASS
-- api/coach.js: node --check PASS
-- api/health.js: node --check PASS
-- vercel.json JSON parse: PASS
-- mufredat-katalogu.json JSON parse: PASS
-- Katalog şeması kontrolü: PASS (TYT 10 ders, AYT 5 sayısal ders, toplam 183 ünite grubu; her grupta alt konu başlıkları var)
-- Kaynak ekleme kodunun statik kontrolü: PASS (TYT/AYT seçeneklerini branşa göre daraltma, ünite arama alanı, boş test alanlarını atlama, özel ünite satırı, tekrar eden ünite adını önleme)
-- Kaydedilen ünite ayrıntıları için optional topics alanı eklenmiştir; eski kayıtların topics alanı bulunmasa da mevcut kod çalışmaya devam eder.
-- Supabase tablo şeması değiştirilmedi.
+ROTA YKS v7 — YEREL DOĞRULAMA RAPORU
 
-CANLI / GERÇEK UÇTAN UCA TEST YAPILMADI
-Gerçek Supabase oturumu, canlı Gemini API, Vercel deployment ve iki kullanıcılı senkronizasyon bu ortamda test edilmemiştir. Etkileşimli tarayıcı testi ortam kısıtı nedeniyle çalıştırılamadı. Anahtarlar pakete yazılmamıştır.
+GEÇEN KONTROLLER
+- `index.html` içindeki gömülü JavaScript: `node --check` PASS.
+- `api/coach.js`: `node --check` PASS.
+- `api/health.js`: `node --check` PASS.
+- `vercel.json`: JSON parse PASS.
+- `mufredat-katalogu.json`: JSON parse PASS.
+- HTML parser smoke test: PASS (temel HTML iskeleti okundu).
+- v7 kritik özellikler için statik işaret kontrolleri: PASS.
+- Kaynak kataloğu: önceki rapordaki 183 ünite grubu kontrolü korunur.
+- v7 statik özellik işaretleri: ortak plan paneli, 7 günlük editör, kitap/ünite/test alanları, video URL'si, serbest program/not alanı, erteleme (1/2 gün), günlük karşılama ve motivasyon metni mevcut.
+- SQL statik kontrolü: üç yeni tablo, RLS, kullanıcı/katılımcı kısıtları ve kimlik koruma tetikleyicileri mevcut.
+- Gün adları, seçilen tarihe göre güncellenir; davet karşılıklı yinelenmesini önleyen kontrol eklendi.
+- Canlı `yks_user_data` şemasına müdahale eden DDL bulunmadığı doğrulanmalı/korunmalıdır.
+
+HENÜZ YAPILMAYAN TESTLER
+- Gerçek Supabase ortamında SQL migration çalıştırılmadı; bu nedenle ortak planın gerçek iki hesaplı uçtan uca çalışması doğrulanmadı.
+- Vercel'e dağıtım yapılmadı. Canlı uygulama ve mevcut kullanıcı verileri bu paketle değiştirilmedi.
+- Gerçek yapay zekâ API anahtarı / Vercel ortam değişkenleri ile koç API'si uçtan uca test edilmedi.
+- Etkileşimli Chromium testi tamamlanamadı; statik ve JavaScript sözdizimi kontrolleri tarayıcı testi yerine geçmez.
+
+SONUÇ
+Paket geliştirme ve yerel statik kontroller içindir. Yayına almadan önce yedek al, SQL'i önce ayrı/test Supabase ortamında çalıştır, iki hesapla davet-kitap paylaşımı-program atama-tamamlama-erteleme senaryolarını test et. Tüm testler geçmeden canlıya yükleme yapma.
