@@ -1,0 +1,1531 @@
+{
+  "TYT": {
+    "Türkçe": [
+      {
+        "name": "Sözcükte Anlam",
+        "topics": [
+          "Gerçek, mecaz ve terim anlam",
+          "Eş ve yakın anlam, karşıt anlam",
+          "Somut-soyut, nicel-nitel anlam",
+          "Deyim, atasözü ve söz öbekleri"
+        ]
+      },
+      {
+        "name": "Cümlede Anlam",
+        "topics": [
+          "Neden-sonuç, amaç-sonuç, koşul-sonuç",
+          "Öznel-nesnel yargı, doğrudan-dolaylı anlatım",
+          "Çıkarım, varsayım, olasılık, öneri",
+          "Anlam ilişkileri ve cümle yorumlama"
+        ]
+      },
+      {
+        "name": "Paragraf: Konu ve Ana Düşünce",
+        "topics": [
+          "Paragrafın konusu ve başlığı",
+          "Ana düşünce / ana yargı",
+          "Yardımcı düşünce",
+          "Paragraftan çıkarılabilecek ve çıkarılamayacak yargılar"
+        ]
+      },
+      {
+        "name": "Paragraf: Yapı ve Akış",
+        "topics": [
+          "Giriş-gelişme-sonuç",
+          "Paragraf tamamlama",
+          "Cümlelerin yerini değiştirme",
+          "Anlam bütünlüğünü bozan cümle",
+          "Paragrafı ikiye bölme"
+        ]
+      },
+      {
+        "name": "Paragraf: Anlatım",
+        "topics": [
+          "Anlatım biçimleri",
+          "Düşünceyi geliştirme yolları",
+          "Anlatıcı ve bakış açısı",
+          "Paragrafın dili, üslubu ve tutarlılığı"
+        ]
+      },
+      {
+        "name": "Sözcük Türleri",
+        "topics": [
+          "İsim ve sıfat",
+          "Zamir",
+          "Zarf",
+          "Edat, bağlaç ve ünlem",
+          "Sözcük türlerini cümlede belirleme"
+        ]
+      },
+      {
+        "name": "Tamlamalar",
+        "topics": [
+          "İsim tamlamaları",
+          "Sıfat tamlamaları",
+          "Tamlayan-tamlanan ilişkileri"
+        ]
+      },
+      {
+        "name": "Fiiller ve Fiilimsiler",
+        "topics": [
+          "Fiilde kip ve kişi",
+          "Haber ve dilek kipleri",
+          "Ek fiil",
+          "Fiilimsi türleri: isim-fiil, sıfat-fiil, zarf-fiil"
+        ]
+      },
+      {
+        "name": "Cümlenin Ögeleri",
+        "topics": [
+          "Yüklem ve özne",
+          "Nesne ve tümleçler",
+          "Ara söz ve cümle dışı unsur"
+        ]
+      },
+      {
+        "name": "Cümle Türleri",
+        "topics": [
+          "Yüklemin türüne göre",
+          "Yüklemin yerine göre",
+          "Anlamına göre",
+          "Yapısına göre cümleler"
+        ]
+      },
+      {
+        "name": "Ses Bilgisi",
+        "topics": [
+          "Ünlü ve ünsüz özellikleri",
+          "Ses olayları",
+          "Büyük ünlü ve küçük ünlü uyumu"
+        ]
+      },
+      {
+        "name": "Yazım Kuralları",
+        "topics": [
+          "Büyük harflerin kullanımı",
+          "Birleşik kelimelerin yazımı",
+          "Sayıların, kısaltmaların ve eklerin yazımı",
+          "De/ki/mi yazımı"
+        ]
+      },
+      {
+        "name": "Noktalama İşaretleri",
+        "topics": [
+          "Nokta, virgül, noktalı virgül",
+          "İki nokta, üç nokta, soru ve ünlem",
+          "Tırnak, kesme, parantez, kısa ve uzun çizgi"
+        ]
+      },
+      {
+        "name": "Anlatım Bozuklukları ve Sözel Mantık",
+        "topics": [
+          "Anlama dayalı anlatım bozuklukları",
+          "Yapıya dayalı anlatım bozuklukları",
+          "Sıralama, eşleştirme ve koşullu akıl yürütme"
+        ]
+      }
+    ],
+    "Matematik": [
+      {
+        "name": "Temel Kavramlar ve Sayı Kümeleri",
+        "topics": [
+          "Doğal, tam, rasyonel, irrasyonel ve gerçek sayılar",
+          "Tek-çift, pozitif-negatif sayılar",
+          "Ardışık sayılar ve sayı kümeleri"
+        ]
+      },
+      {
+        "name": "Sayı Basamakları",
+        "topics": [
+          "Basamak ve sayı değeri",
+          "Çözümleme",
+          "Basamaklarla ilgili problemler"
+        ]
+      },
+      {
+        "name": "Bölme ve Bölünebilme",
+        "topics": [
+          "Bölme algoritması ve kalan",
+          "2, 3, 4, 5, 6, 8, 9, 10, 11 ile bölünebilme"
+        ]
+      },
+      {
+        "name": "EBOB ve EKOK",
+        "topics": [
+          "Asal çarpanlara ayırma",
+          "EBOB-EKOK hesaplama",
+          "Uygulama problemleri"
+        ]
+      },
+      {
+        "name": "Rasyonel ve Ondalıklı Sayılar",
+        "topics": [
+          "Kesirlerde işlemler",
+          "Ondalık gösterim",
+          "Devirli ondalık sayılar"
+        ]
+      },
+      {
+        "name": "Basit Eşitsizlikler",
+        "topics": [
+          "Aralıklar ve sayı doğrusu",
+          "Birinci dereceden eşitsizlikler",
+          "Eşitsizlik sistemleri"
+        ]
+      },
+      {
+        "name": "Mutlak Değer",
+        "topics": [
+          "Mutlak değer tanımı ve özellikleri",
+          "Mutlak değerli denklemler",
+          "Mutlak değerli eşitsizlikler"
+        ]
+      },
+      {
+        "name": "Üslü Sayılar",
+        "topics": [
+          "Üs kuralları",
+          "Negatif ve sıfırıncı üs",
+          "Üslü ifadelerde işlemler"
+        ]
+      },
+      {
+        "name": "Köklü Sayılar",
+        "topics": [
+          "Kök içi ve kök dışı",
+          "Köklü ifadelerde işlemler",
+          "Payda ve kök sadeleştirme"
+        ]
+      },
+      {
+        "name": "Çarpanlara Ayırma",
+        "topics": [
+          "Ortak çarpan parantezine alma",
+          "İki kare farkı ve tam kare",
+          "Gruplandırma yöntemi"
+        ]
+      },
+      {
+        "name": "Oran ve Orantı",
+        "topics": [
+          "Doğru ve ters orantı",
+          "Orantı özellikleri",
+          "Oran-orantı problemleri"
+        ]
+      },
+      {
+        "name": "Denklem Çözme",
+        "topics": [
+          "Birinci dereceden denklemler",
+          "Kesirli ve mutlak değerli denklemler",
+          "Denklem kurma"
+        ]
+      },
+      {
+        "name": "Problemler: Sayı, Kesir ve Yaş",
+        "topics": [
+          "Sayı ve kesir problemleri",
+          "Yaş problemleri",
+          "Basamak ve rakam problemleri"
+        ]
+      },
+      {
+        "name": "Problemler: Hareket, İş ve Havuz",
+        "topics": [
+          "Hız-zaman-yol",
+          "İşçi-havuz problemleri",
+          "Karşılaşma ve yetişme"
+        ]
+      },
+      {
+        "name": "Problemler: Yüzde, Kâr-Zarar ve Karışım",
+        "topics": [
+          "Yüzde ve değişim",
+          "Kâr-zarar-indirim",
+          "Karışım ve oran problemleri"
+        ]
+      },
+      {
+        "name": "Problemler: Grafik ve Diğer",
+        "topics": [
+          "Tablo ve grafik yorumlama",
+          "Ortalama ve paylaşım",
+          "Rutin olmayan problemler"
+        ]
+      },
+      {
+        "name": "Kümeler",
+        "topics": [
+          "Küme gösterimleri",
+          "Alt küme ve kuvvet kümesi",
+          "Birleşim, kesişim, fark ve tümleyen"
+        ]
+      },
+      {
+        "name": "Mantık",
+        "topics": [
+          "Önerme ve doğruluk değeri",
+          "Bileşik önermeler",
+          "Niceleyiciler ve doğruluk tabloları"
+        ]
+      },
+      {
+        "name": "Fonksiyonlara Giriş",
+        "topics": [
+          "Fonksiyon tanımı ve gösterimi",
+          "Tanım, değer ve görüntü kümesi",
+          "Fonksiyon grafiği ve değer bulma"
+        ]
+      },
+      {
+        "name": "Permütasyon ve Kombinasyon",
+        "topics": [
+          "Faktöriyel",
+          "Permütasyon",
+          "Kombinasyon"
+        ]
+      },
+      {
+        "name": "Olasılık",
+        "topics": [
+          "Örnek uzay ve olay",
+          "Olasılık hesapları",
+          "Bağımlı-bağımsız olaylara giriş"
+        ]
+      },
+      {
+        "name": "Veri, İstatistik ve Grafikler",
+        "topics": [
+          "Aritmetik ortalama, ortanca, tepe değer",
+          "Açıklık ve temel dağılım ölçüleri",
+          "Veri tabloları ve grafik yorumlama"
+        ]
+      }
+    ],
+    "Geometri": [
+      {
+        "name": "Doğruda ve Açılarda Temel Kavramlar",
+        "topics": [
+          "Açı çeşitleri ve açı ölçüsü",
+          "Ters, yöndeş, iç-dış ters açılar",
+          "Paralel doğrularda açılar"
+        ]
+      },
+      {
+        "name": "Üçgenlerde Açılar ve Kenarlar",
+        "topics": [
+          "Üçgen eşitsizliği",
+          "Açı-kenar ilişkileri",
+          "Açıortay ve kenarortay"
+        ]
+      },
+      {
+        "name": "Özel Üçgenler",
+        "topics": [
+          "Dik üçgen ve Pisagor",
+          "Özel dik üçgenler: 3-4-5, 5-12-13",
+          "İkizkenar ve eşkenar üçgen"
+        ]
+      },
+      {
+        "name": "Üçgende Eşlik ve Benzerlik",
+        "topics": [
+          "Eşlik koşulları",
+          "Benzerlik ve oran",
+          "Thales teoremi"
+        ]
+      },
+      {
+        "name": "Üçgende Alan",
+        "topics": [
+          "Alan bağıntıları",
+          "Yükseklik ve taban ilişkisi",
+          "Benzer üçgenlerde alan oranı"
+        ]
+      },
+      {
+        "name": "Çokgenler",
+        "topics": [
+          "İç ve dış açı toplamları",
+          "Düzgün çokgenler",
+          "Köşegen sayısı"
+        ]
+      },
+      {
+        "name": "Dörtgenler",
+        "topics": [
+          "Paralelkenar ve eşkenar dörtgen",
+          "Dikdörtgen ve kare",
+          "Yamuk ve deltoid"
+        ]
+      },
+      {
+        "name": "Çember ve Daire",
+        "topics": [
+          "Merkez ve çevre açı",
+          "Teğet-kiriş ilişkileri",
+          "Çemberde uzunluk",
+          "Dairede alan ve yay"
+        ]
+      },
+      {
+        "name": "Analitik Geometri: Doğru",
+        "topics": [
+          "Koordinat düzlemi",
+          "İki nokta arası uzaklık",
+          "Orta nokta ve eğim",
+          "Doğru denklemi"
+        ]
+      },
+      {
+        "name": "Katı Cisimler",
+        "topics": [
+          "Prizma ve küp",
+          "Silindir",
+          "Piramit ve koni",
+          "Küre; alan ve hacim"
+        ]
+      }
+    ],
+    "Fizik": [
+      {
+        "name": "Fizik Bilimine Giriş ve Ölçme",
+        "topics": [
+          "Fiziğin alt dalları",
+          "Temel ve türetilmiş büyüklükler",
+          "Skaler-vektörel büyüklükler",
+          "Birim sistemleri"
+        ]
+      },
+      {
+        "name": "Madde ve Özellikleri",
+        "topics": [
+          "Özkütle ve dayanıklılık",
+          "Adezyon, kohezyon ve yüzey gerilimi",
+          "Kılcallık"
+        ]
+      },
+      {
+        "name": "Hareket ve Kuvvet",
+        "topics": [
+          "Konum, yer değiştirme, hız ve sürat",
+          "İvme ve hareket grafikleri",
+          "Newton yasaları ve net kuvvet",
+          "Sürtünme kuvveti"
+        ]
+      },
+      {
+        "name": "İş, Enerji ve Güç",
+        "topics": [
+          "Fiziksel anlamda iş",
+          "Kinetik ve potansiyel enerji",
+          "Enerjinin korunumu",
+          "Güç ve verim"
+        ]
+      },
+      {
+        "name": "Isı, Sıcaklık ve Genleşme",
+        "topics": [
+          "Isı-sıcaklık farkı",
+          "Öz ısı ve ısı sığası",
+          "Hal değişimi ve ısı alışverişi",
+          "Genleşme"
+        ]
+      },
+      {
+        "name": "Basınç ve Kaldırma Kuvveti",
+        "topics": [
+          "Katılarda, sıvılarda ve gazlarda basınç",
+          "Pascal ilkesi ve açık hava basıncı",
+          "Kaldırma kuvveti ve yüzme"
+        ]
+      },
+      {
+        "name": "Elektrostatik",
+        "topics": [
+          "Elektrik yükleri ve elektriklenme",
+          "İletken ve yalıtkanlar",
+          "Elektroskop ve topraklama"
+        ]
+      },
+      {
+        "name": "Elektrik Akımı ve Devreler",
+        "topics": [
+          "Akım, gerilim ve direnç",
+          "Ohm yasası",
+          "Seri-paralel devreler",
+          "Elektriksel güç ve enerji"
+        ]
+      },
+      {
+        "name": "Manyetizma",
+        "topics": [
+          "Mıknatıslar ve manyetik alan",
+          "Akımın manyetik etkisi"
+        ]
+      },
+      {
+        "name": "Dalgalar",
+        "topics": [
+          "Dalga kavramları ve sınıflandırma",
+          "Yay, su ve ses dalgaları",
+          "Periyot, frekans, dalga boyu ve hız"
+        ]
+      },
+      {
+        "name": "Optik",
+        "topics": [
+          "Işığın yansıması ve aynalar",
+          "Kırılma ve renkler",
+          "Mercekler ve görüntü",
+          "Aydınlanma ve gölge"
+        ]
+      },
+      {
+        "name": "Fizik ve Günlük Yaşam",
+        "topics": [
+          "Enerji dönüşümleri",
+          "Basit makineler",
+          "Güvenli elektrik kullanımı ve teknolojik uygulamalar"
+        ]
+      }
+    ],
+    "Kimya": [
+      {
+        "name": "Kimya Bilimi",
+        "topics": [
+          "Kimyanın alt disiplinleri",
+          "Laboratuvar güvenliği",
+          "Kimyasal maddelerin kullanımı ve güvenlik işaretleri"
+        ]
+      },
+      {
+        "name": "Atom ve Periyodik Sistem",
+        "topics": [
+          "Atom modelleri ve temel tanecikler",
+          "Atom numarası, kütle numarası ve izotop",
+          "Periyodik tablo ve periyodik özellikler"
+        ]
+      },
+      {
+        "name": "Kimyasal Türler Arası Etkileşimler",
+        "topics": [
+          "İyonik, kovalent ve metalik bağ",
+          "Moleküller arası etkileşimler",
+          "Hidrojen bağı, dipol ve London kuvvetleri"
+        ]
+      },
+      {
+        "name": "Maddenin Hâlleri",
+        "topics": [
+          "Katı, sıvı, gaz ve plazma",
+          "Buhar basıncı ve hâl değişimi",
+          "Gazların temel özellikleri"
+        ]
+      },
+      {
+        "name": "Doğa ve Kimya",
+        "topics": [
+          "Su ve hayat",
+          "Çevre kimyası",
+          "Evsel atıklar ve sürdürülebilirlik"
+        ]
+      },
+      {
+        "name": "Kimyanın Temel Kanunları",
+        "topics": [
+          "Kütlenin korunumu",
+          "Sabit ve katlı oranlar",
+          "Mol kavramına giriş ve kimyasal hesaplamalar"
+        ]
+      },
+      {
+        "name": "Karışımlar",
+        "topics": [
+          "Homojen ve heterojen karışımlar",
+          "Çözeltiler ve çözünürlük",
+          "Ayırma ve saflaştırma yöntemleri"
+        ]
+      },
+      {
+        "name": "Asitler, Bazlar ve Tuzlar",
+        "topics": [
+          "Asit-baz özellikleri",
+          "pH ve indikatörler",
+          "Nötralleşme ve tuzlar",
+          "Asit-bazların günlük yaşamı"
+        ]
+      },
+      {
+        "name": "Kimya Her Yerde",
+        "topics": [
+          "Temizlik maddeleri",
+          "Polimerler, kozmetikler ve ilaçlar",
+          "Gıdalar ve katkı maddeleri"
+        ]
+      }
+    ],
+    "Biyoloji": [
+      {
+        "name": "Canlıların Ortak Özellikleri",
+        "topics": [
+          "Hücresel yapı ve organizasyon",
+          "Beslenme, solunum ve boşaltım",
+          "Büyüme, gelişme, üreme ve uyum"
+        ]
+      },
+      {
+        "name": "Canlıların Temel Bileşenleri",
+        "topics": [
+          "İnorganik bileşikler: su, mineraller, asit-baz-tuz",
+          "Karbonhidrat, yağ ve protein",
+          "Enzimler, vitaminler, ATP ve nükleik asitler"
+        ]
+      },
+      {
+        "name": "Hücre ve Organeller",
+        "topics": [
+          "Prokaryot ve ökaryot hücre",
+          "Hücre zarı ve madde geçişleri",
+          "Organellerin görevleri",
+          "Hücre iskeleti"
+        ]
+      },
+      {
+        "name": "Hücre Bölünmeleri",
+        "topics": [
+          "Hücre döngüsü",
+          "Mitoz ve eşeysiz üreme",
+          "Mayoz ve eşeyli üreme",
+          "Mitoz-mayoz karşılaştırması"
+        ]
+      },
+      {
+        "name": "Kalıtımın Temel İlkeleri",
+        "topics": [
+          "DNA-gen-kromozom ilişkisi",
+          "Mendel genetiği",
+          "Kan grupları ve eşeye bağlı kalıtım",
+          "Soy ağacı ve genetik çeşitlilik"
+        ]
+      },
+      {
+        "name": "Ekosistem Ekolojisi",
+        "topics": [
+          "Ekosistem bileşenleri",
+          "Besin zinciri ve enerji akışı",
+          "Madde döngüleri",
+          "Popülasyon ve komünite ilişkileri"
+        ]
+      },
+      {
+        "name": "Canlıların Sınıflandırılması",
+        "topics": [
+          "Sınıflandırma basamakları",
+          "Üç üst âlem ve canlı grupları",
+          "Bakteri, arke, protist ve mantarlar"
+        ]
+      },
+      {
+        "name": "Bitkiler ve Canlılık",
+        "topics": [
+          "Bitkisel dokulara giriş",
+          "Bitkilerde fotosentez ve madde taşınması",
+          "Bitkilerde üreme ve gelişme"
+        ]
+      },
+      {
+        "name": "İnsan Fizyolojisine Giriş",
+        "topics": [
+          "Destek ve hareket sistemi",
+          "Sindirim ve emilim",
+          "Dolaşım ve bağışıklık"
+        ]
+      },
+      {
+        "name": "Solunum, Boşaltım ve Homeostazi",
+        "topics": [
+          "Solunum sistemi",
+          "Boşaltım ve böbrek",
+          "Homeostazi ve geri bildirim"
+        ]
+      },
+      {
+        "name": "Üreme ve Gelişme",
+        "topics": [
+          "Üreme sistemi",
+          "Döllenme ve embriyonik gelişme",
+          "Üreme sağlığı ve kalıtımsal devamlılık"
+        ]
+      }
+    ],
+    "Tarih": [
+      {
+        "name": "Tarih ve Zaman",
+        "topics": [
+          "Tarih bilimi ve kaynaklar",
+          "Takvimler ve zaman hesaplama",
+          "Tarihî olay ve olgu"
+        ]
+      },
+      {
+        "name": "İnsanlığın İlk Dönemleri",
+        "topics": [
+          "İlk yerleşimler ve uygarlıklar",
+          "Mezopotamya, Mısır ve Anadolu uygarlıkları",
+          "İlk Çağ’da devlet ve toplum"
+        ]
+      },
+      {
+        "name": "Orta Çağ’da Dünya",
+        "topics": [
+          "Orta Çağ devletleri",
+          "Ticaret yolları ve kültürel etkileşim",
+          "Feodalite ve toplum yapısı"
+        ]
+      },
+      {
+        "name": "İlk ve Orta Çağlarda Türk Dünyası",
+        "topics": [
+          "İlk Türk devletleri",
+          "İslamiyet öncesi kültür ve yaşam",
+          "Göçler ve Türk toplulukları"
+        ]
+      },
+      {
+        "name": "İslam Medeniyetinin Doğuşu",
+        "topics": [
+          "İslamiyet’in doğuşu ve yayılışı",
+          "Dört Halife ve Emeviler-Abbasiler",
+          "Bilim, kültür ve medeniyet"
+        ]
+      },
+      {
+        "name": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+        "topics": [
+          "Karahanlılar, Gazneliler ve Büyük Selçuklu",
+          "Türk-İslam kültür ve kurumları",
+          "Anadolu’ya Türk göçleri"
+        ]
+      },
+      {
+        "name": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+        "topics": [
+          "Anadolu Selçuklu Devleti",
+          "Beylikler ve Anadolu’nun Türkleşmesi",
+          "Haçlı Seferleri"
+        ]
+      },
+      {
+        "name": "Beylikten Devlete Osmanlı",
+        "topics": [
+          "Osmanlı’nın kuruluşu",
+          "Rumeli’ye geçiş ve fetihler",
+          "Osmanlı devlet teşkilatının oluşumu"
+        ]
+      },
+      {
+        "name": "Dünya Gücü Osmanlı",
+        "topics": [
+          "İstanbul’un fethi",
+          "Yükselme dönemi ve siyasî ilişkiler",
+          "Osmanlı kültür ve medeniyeti"
+        ]
+      },
+      {
+        "name": "Değişim Çağında Avrupa ve Osmanlı",
+        "topics": [
+          "Coğrafi Keşifler ve Rönesans-Reform",
+          "Aydınlanma ve Sanayi Devrimi",
+          "Osmanlı’da değişim ve ıslahat"
+        ]
+      },
+      {
+        "name": "Uluslararası İlişkilerde Denge Stratejisi",
+        "topics": [
+          "Osmanlı-Rusya ve Avrupa ilişkileri",
+          "19. yüzyıl ıslahatları",
+          "Milliyetçilik ve dağılma süreci"
+        ]
+      },
+      {
+        "name": "20. Yüzyılda Osmanlı ve Dünya",
+        "topics": [
+          "Trablusgarp ve Balkan Savaşları",
+          "I. Dünya Savaşı ve cepheler",
+          "Mondros ve işgaller"
+        ]
+      },
+      {
+        "name": "Millî Mücadele ve Atatürkçülük",
+        "topics": [
+          "Kongreler ve TBMM’nin açılması",
+          "Kurtuluş Savaşı ve antlaşmalar",
+          "Cumhuriyet’in ilanı ve inkılaplar",
+          "Atatürk ilkeleri ve dış politika"
+        ]
+      }
+    ],
+    "Coğrafya": [
+      {
+        "name": "Doğa ve İnsan",
+        "topics": [
+          "Coğrafyanın bölümleri ve yöntemleri",
+          "Doğal ve beşerî çevre",
+          "Coğrafi bakış ve konum"
+        ]
+      },
+      {
+        "name": "Harita Bilgisi",
+        "topics": [
+          "Ölçek ve harita türleri",
+          "İzohips ve yer şekillerini okuma",
+          "Koordinat sistemi ve uzaklık hesaplama"
+        ]
+      },
+      {
+        "name": "Dünya’nın Şekli ve Hareketleri",
+        "topics": [
+          "Dünya’nın şekli ve sonuçları",
+          "Günlük ve yıllık hareket",
+          "Mevsimler ve zaman dilimleri"
+        ]
+      },
+      {
+        "name": "Coğrafi Konum",
+        "topics": [
+          "Mutlak ve göreceli konum",
+          "Türkiye’nin konumu ve sonuçları"
+        ]
+      },
+      {
+        "name": "Atmosfer ve İklim",
+        "topics": [
+          "Atmosfer ve sıcaklık",
+          "Basınç ve rüzgârlar",
+          "Nem ve yağış",
+          "İklim elemanları ve iklim tipleri"
+        ]
+      },
+      {
+        "name": "İç ve Dış Kuvvetler",
+        "topics": [
+          "Tektonik ve volkanizma",
+          "Deprem ve dağ oluşumu",
+          "Akarsu, rüzgâr, buzul ve dalga şekilleri"
+        ]
+      },
+      {
+        "name": "Su, Toprak ve Bitki",
+        "topics": [
+          "Su kaynakları ve döngüsü",
+          "Toprak oluşumu ve türleri",
+          "Bitki toplulukları ve dağılış"
+        ]
+      },
+      {
+        "name": "Nüfus ve Yerleşme",
+        "topics": [
+          "Nüfus dağılışı ve yoğunluk",
+          "Nüfus piramitleri ve politikaları",
+          "Kırsal-kentsel yerleşmeler",
+          "Göçler ve sonuçları"
+        ]
+      },
+      {
+        "name": "Ekonomik Faaliyetler",
+        "topics": [
+          "Tarım, hayvancılık ve ormancılık",
+          "Madenler ve enerji kaynakları",
+          "Sanayi ve hizmetler"
+        ]
+      },
+      {
+        "name": "Ulaşım, Ticaret ve Turizm",
+        "topics": [
+          "Ulaşım sistemleri",
+          "Ticaret ve küresel ilişkiler",
+          "Turizm ve etkileri"
+        ]
+      },
+      {
+        "name": "Bölgeler ve Ülkeler",
+        "topics": [
+          "Bölge kavramı ve sınıflandırma",
+          "Küresel örgütler ve bölgesel iş birlikleri"
+        ]
+      },
+      {
+        "name": "Türkiye’nin Coğrafi Özellikleri",
+        "topics": [
+          "Türkiye’de yer şekilleri ve iklim",
+          "Türkiye’de nüfus ve yerleşme",
+          "Tarım, sanayi ve enerji bölgeleri"
+        ]
+      },
+      {
+        "name": "Çevre ve Doğal Afetler",
+        "topics": [
+          "Doğal afetler ve risk azaltma",
+          "Çevre sorunları ve sürdürülebilirlik",
+          "Küresel iklim değişikliği"
+        ]
+      }
+    ],
+    "Felsefe": [
+      {
+        "name": "Felsefeye Giriş",
+        "topics": [
+          "Felsefenin anlamı ve özellikleri",
+          "Felsefi düşüncenin doğuşu",
+          "Felsefe-bilim, din ve sanat ilişkisi"
+        ]
+      },
+      {
+        "name": "Bilgi Felsefesi",
+        "topics": [
+          "Bilginin kaynağı ve sınırları",
+          "Doğruluk ve gerçeklik",
+          "Septisizm, rasyonalizm, empirizm ve diğer yaklaşımlar"
+        ]
+      },
+      {
+        "name": "Varlık Felsefesi",
+        "topics": [
+          "Varlık ve oluş",
+          "Madde, idea ve varoluş yaklaşımları",
+          "Metafizik ve ontoloji"
+        ]
+      },
+      {
+        "name": "Bilim Felsefesi",
+        "topics": [
+          "Bilimsel yöntem ve bilimsel bilgi",
+          "Bilimin ölçütleri ve sınırları",
+          "Bilimsel değişim"
+        ]
+      },
+      {
+        "name": "Ahlak ve Siyaset Felsefesi",
+        "topics": [
+          "İyi-kötü ve özgürlük",
+          "Erdem, mutluluk, ödev ve fayda",
+          "Devlet, iktidar, hak ve adalet"
+        ]
+      },
+      {
+        "name": "Sanat, Din ve Mantık Felsefesi",
+        "topics": [
+          "Sanat ve estetik yargı",
+          "Din felsefesinin temel problemleri",
+          "Akıl yürütme, önerme ve tutarlılık"
+        ]
+      }
+    ],
+    "Din Kültürü": [
+      {
+        "name": "Bilgi ve İnanç",
+        "topics": [
+          "Bilgi kaynakları",
+          "İman ve inanç esasları",
+          "İslam’da bilgi ve düşünme"
+        ]
+      },
+      {
+        "name": "Din ve İslam",
+        "topics": [
+          "Din kavramı ve dinin insan hayatındaki yeri",
+          "İslam’ın temel özellikleri",
+          "İslam’ın temel kaynakları"
+        ]
+      },
+      {
+        "name": "İbadet ve İslam’da İbadetler",
+        "topics": [
+          "İbadetin anlamı ve amacı",
+          "Namaz, oruç, zekât ve hac",
+          "İbadetlerde niyet ve sorumluluk"
+        ]
+      },
+      {
+        "name": "Ahlak ve Değerler",
+        "topics": [
+          "Ahlakın temelleri",
+          "Adalet, dürüstlük, sabır ve sorumluluk",
+          "Hak ve özgürlükler"
+        ]
+      },
+      {
+        "name": "Kur’an ve Yorumu",
+        "topics": [
+          "Kur’an’ın temel özellikleri",
+          "Ayetlerin anlaşılması ve yorum ilkeleri",
+          "Kur’an’da insan ve toplum"
+        ]
+      },
+      {
+        "name": "Hz. Muhammed’in Hayatı ve Örnekliği",
+        "topics": [
+          "Peygamberlik ve vahiy",
+          "Hz. Muhammed’in örnek davranışları",
+          "Mekke ve Medine dönemi"
+        ]
+      },
+      {
+        "name": "İslam Düşüncesinde Yorumlar",
+        "topics": [
+          "İnanç, fıkıh ve tasavvuf alanlarında yorumlar",
+          "Mezhep ve yorum farklılıklarının nedenleri",
+          "Dinî yorumlarda ortak değerler"
+        ]
+      },
+      {
+        "name": "Din, Kültür ve Medeniyet",
+        "topics": [
+          "İslam medeniyetinde bilim ve sanat",
+          "Din ve çevre, aile ve toplumsal hayat",
+          "Güncel dinî meseleleri değerlendirme"
+        ]
+      }
+    ]
+  },
+  "AYT": {
+    "Matematik": [
+      {
+        "name": "Fonksiyonlar",
+        "topics": [
+          "Bileşke ve ters fonksiyon",
+          "Fonksiyonlarda işlemler ve dönüşümler",
+          "Grafik yorumlama"
+        ]
+      },
+      {
+        "name": "Polinomlar",
+        "topics": [
+          "Polinom kavramı ve işlemler",
+          "Kalan ve çarpan teoremi",
+          "Polinom denklemleri"
+        ]
+      },
+      {
+        "name": "İkinci Dereceden Denklemler",
+        "topics": [
+          "Diskriminant ve kökler",
+          "Kök-katsayı ilişkileri",
+          "Karmaşık kökler"
+        ]
+      },
+      {
+        "name": "Parabol",
+        "topics": [
+          "Parabol denklemi ve grafiği",
+          "Tepe noktası, eksen ve kesişimler",
+          "Parabol problemleri"
+        ]
+      },
+      {
+        "name": "Karmaşık Sayılar",
+        "topics": [
+          "Sanal birim ve karmaşık sayı",
+          "Karmaşık sayılarda işlemler",
+          "Eşlenik ve kökler"
+        ]
+      },
+      {
+        "name": "Eşitsizlikler",
+        "topics": [
+          "İkinci dereceden eşitsizlikler",
+          "İşaret tablosu ve rasyonel eşitsizlikler",
+          "Mutlak değerli eşitsizlikler"
+        ]
+      },
+      {
+        "name": "Permütasyon, Kombinasyon ve Binom",
+        "topics": [
+          "Permütasyon ve sıralama",
+          "Kombinasyon ve seçim",
+          "Binom açılımı ve katsayılar"
+        ]
+      },
+      {
+        "name": "Olasılık",
+        "topics": [
+          "Koşullu olasılık",
+          "Bağımlı ve bağımsız olaylar",
+          "Olasılık problemleri"
+        ]
+      },
+      {
+        "name": "Trigonometri",
+        "topics": [
+          "Açı ölçüleri ve birim çember",
+          "Trigonometrik fonksiyonlar ve grafikler",
+          "Temel özdeşlikler",
+          "Toplam-fark ve iki kat açı formülleri",
+          "Trigonometrik denklemler"
+        ]
+      },
+      {
+        "name": "Logaritma",
+        "topics": [
+          "Üstel ve logaritmik fonksiyonlar",
+          "Logaritma kuralları",
+          "Logaritmik denklemler ve eşitsizlikler"
+        ]
+      },
+      {
+        "name": "Diziler",
+        "topics": [
+          "Genel terim ve dizi kavramı",
+          "Aritmetik ve geometrik diziler",
+          "Dizi problemleri"
+        ]
+      },
+      {
+        "name": "Limit ve Süreklilik",
+        "topics": [
+          "Limit kavramı ve limit kuralları",
+          "Sağdan-soldan limit",
+          "Belirsizlikler",
+          "Süreklilik"
+        ]
+      },
+      {
+        "name": "Türev",
+        "topics": [
+          "Türev tanımı ve kurallar",
+          "Çarpım, bölüm ve bileşke türevi",
+          "Teğet ve normal denklemi",
+          "Artan-azalanlık, ekstremum ve grafik",
+          "Optimizasyon problemleri"
+        ]
+      },
+      {
+        "name": "İntegral",
+        "topics": [
+          "Belirsiz integral ve temel kurallar",
+          "Belirli integral",
+          "Alan hesabı ve uygulamalar"
+        ]
+      }
+    ],
+    "Geometri": [
+      {
+        "name": "Üçgenler: İleri Düzey",
+        "topics": [
+          "Açıortay, kenarortay ve yükseklik",
+          "Benzerlik ve oran problemleri",
+          "Alan ve özel üçgenler"
+        ]
+      },
+      {
+        "name": "Dörtgenler ve Çokgenler",
+        "topics": [
+          "Paralelkenar, dikdörtgen, kare",
+          "Yamuk, eşkenar dörtgen ve deltoid",
+          "Düzgün çokgenler ve alan"
+        ]
+      },
+      {
+        "name": "Çember ve Daire",
+        "topics": [
+          "Çemberde açılar ve kirişler",
+          "Teğet-kesen ilişkileri",
+          "Daire dilimi, yay ve alan"
+        ]
+      },
+      {
+        "name": "Analitik Geometri: Doğru",
+        "topics": [
+          "Nokta ve uzaklık",
+          "Eğim ve doğru denklemi",
+          "Doğruların birbirine göre durumu",
+          "Uzaklık ve açı problemleri"
+        ]
+      },
+      {
+        "name": "Analitik Geometri: Çember",
+        "topics": [
+          "Çember denklemi",
+          "Merkez-yarıçap ve koordinat ilişkileri",
+          "Doğru-çember kesişimi"
+        ]
+      },
+      {
+        "name": "Dönüşüm Geometrisi",
+        "topics": [
+          "Öteleme, yansıma ve dönme",
+          "Simetri ve koordinat dönüşümleri"
+        ]
+      },
+      {
+        "name": "Katı Cisimler",
+        "topics": [
+          "Prizma ve piramit",
+          "Silindir ve koni",
+          "Küre; alan-hacim uygulamaları"
+        ]
+      }
+    ],
+    "Fizik": [
+      {
+        "name": "Vektörler",
+        "topics": [
+          "Vektörlerin toplanması ve bileşenleri",
+          "Bileşke ve bileşen vektörler"
+        ]
+      },
+      {
+        "name": "Bağıl Hareket",
+        "topics": [
+          "Bağıl konum ve hız",
+          "Hareketli gözlemci"
+        ]
+      },
+      {
+        "name": "Newton’ın Hareket Yasaları",
+        "topics": [
+          "Dinamiğin temel ilkeleri",
+          "Sürtünme ve bağlı cisimler",
+          "Eğik düzlem problemleri"
+        ]
+      },
+      {
+        "name": "Bir Boyutta ve İki Boyutta Hareket",
+        "topics": [
+          "Düzgün ve ivmeli hareket",
+          "Atışlar: yatay ve eğik atış",
+          "Hareket grafikleri"
+        ]
+      },
+      {
+        "name": "İş, Enerji ve Güç",
+        "topics": [
+          "İş-kinetik enerji teoremi",
+          "Potansiyel enerji ve enerji korunumu",
+          "Güç ve verim"
+        ]
+      },
+      {
+        "name": "İtme ve Çizgisel Momentum",
+        "topics": [
+          "Momentum ve itme",
+          "Momentumun korunumu",
+          "Çarpışmalar ve patlamalar"
+        ]
+      },
+      {
+        "name": "Tork ve Denge",
+        "topics": [
+          "Tork ve moment kolu",
+          "Denge koşulları",
+          "Ağırlık merkezi"
+        ]
+      },
+      {
+        "name": "Basit Makineler",
+        "topics": [
+          "Kaldıraç, makara ve çıkrık",
+          "Eğik düzlem ve dişli sistemleri",
+          "Kuvvet-yol kazancı"
+        ]
+      },
+      {
+        "name": "Elektriksel Kuvvet ve Alan",
+        "topics": [
+          "Coulomb yasası",
+          "Elektrik alan ve kuvvet",
+          "Elektriksel potansiyel enerji"
+        ]
+      },
+      {
+        "name": "Elektriksel Potansiyel ve Sığa",
+        "topics": [
+          "Elektriksel potansiyel ve iş",
+          "Sığa ve kondansatör",
+          "Kondansatörlerin bağlanması"
+        ]
+      },
+      {
+        "name": "Manyetizma ve Elektromanyetik İndüksiyon",
+        "topics": [
+          "Manyetik alan ve kuvvet",
+          "Manyetik akı ve indüksiyon",
+          "Lenz ve Faraday yasaları"
+        ]
+      },
+      {
+        "name": "Alternatif Akım ve Transformatörler",
+        "topics": [
+          "Alternatif akım ve etkin değer",
+          "İndüktans ve kapasitansın temel etkileri",
+          "Transformatörler"
+        ]
+      },
+      {
+        "name": "Dairesel Hareket",
+        "topics": [
+          "Düzgün çembersel hareket",
+          "Merkezcil kuvvet ve ivme",
+          "Dönme hareketiyle ilgili uygulamalar"
+        ]
+      },
+      {
+        "name": "Basit Harmonik Hareket",
+        "topics": [
+          "Yay sarkacı ve basit sarkaç",
+          "Periyot, frekans ve enerji dönüşümü"
+        ]
+      },
+      {
+        "name": "Dalga Mekaniği",
+        "topics": [
+          "Dalgalarda girişim ve kırınım",
+          "Doppler olayı",
+          "Elektromanyetik dalgalar"
+        ]
+      },
+      {
+        "name": "Atom Modelleri ve Modern Fizik",
+        "topics": [
+          "Atom modelleri",
+          "Fotoelektrik olay",
+          "Compton olayı ve madde dalgaları"
+        ]
+      },
+      {
+        "name": "Modern Fiziğin Teknolojide Uygulamaları",
+        "topics": [
+          "Özel görelilik temelleri",
+          "Görüntüleme teknolojileri",
+          "Yarı iletkenler ve süper iletkenlik",
+          "Nanoteknoloji"
+        ]
+      },
+      {
+        "name": "Atom Çekirdeği ve Radyoaktivite",
+        "topics": [
+          "Radyoaktif bozunma",
+          "Nükleer tepkimeler ve enerji",
+          "Fisyon ve füzyon"
+        ]
+      }
+    ],
+    "Kimya": [
+      {
+        "name": "Modern Atom Teorisi",
+        "topics": [
+          "Atom orbitalleri ve kuantum sayıları",
+          "Elektron dizilimi ve periyodik özellikler",
+          "Yükseltgenme basamağı"
+        ]
+      },
+      {
+        "name": "Gazlar",
+        "topics": [
+          "Gaz yasaları",
+          "İdeal gaz denklemi",
+          "Kısmi basınç ve gaz karışımları"
+        ]
+      },
+      {
+        "name": "Sıvı Çözeltiler ve Çözünürlük",
+        "topics": [
+          "Çözücü-çözünen etkileşimi",
+          "Derişim birimleri ve çözelti hazırlama",
+          "Çözünürlüğe etki eden faktörler"
+        ]
+      },
+      {
+        "name": "Kimyasal Tepkimelerde Enerji",
+        "topics": [
+          "Entalpi ve tepkime ısısı",
+          "Hess yasası",
+          "Bağ enerjileri"
+        ]
+      },
+      {
+        "name": "Kimyasal Tepkimelerde Hız",
+        "topics": [
+          "Tepkime hızı ve hız bağıntısı",
+          "Çarpışma teorisi",
+          "Katalizör ve sıcaklık etkisi"
+        ]
+      },
+      {
+        "name": "Kimyasal Denge",
+        "topics": [
+          "Denge sabiti ve denge hesapları",
+          "Dengeye etki eden faktörler",
+          "Le Chatelier ilkesi"
+        ]
+      },
+      {
+        "name": "Asit-Baz Dengesi",
+        "topics": [
+          "Asit-baz kuvveti",
+          "pH-pOH hesapları",
+          "Tampon çözeltilere giriş"
+        ]
+      },
+      {
+        "name": "Çözünürlük Dengesi",
+        "topics": [
+          "Çözünürlük çarpımı Kçç",
+          "Ortak iyon etkisi",
+          "Çökelme ve seçici çöktürme"
+        ]
+      },
+      {
+        "name": "Kimya ve Elektrik",
+        "topics": [
+          "Yükseltgenme-indirgenme",
+          "Galvanik piller",
+          "Elektroliz ve Faraday yasaları",
+          "Korozyon"
+        ]
+      },
+      {
+        "name": "Karbon Kimyasına Giriş",
+        "topics": [
+          "Organik bileşiklerin sınıflandırılması",
+          "Hibritleşme ve molekül geometrisi",
+          "Basit formül ve molekül formülü"
+        ]
+      },
+      {
+        "name": "Organik Bileşikler",
+        "topics": [
+          "Hidrokarbonlar: alkan, alken, alkin",
+          "Aromatik bileşikler",
+          "Alkoller, eterler ve fenoller",
+          "Aldehit, keton, karboksilik asit ve ester",
+          "Aminler ve amidler"
+        ]
+      },
+      {
+        "name": "Enerji Kaynakları ve Kimya Sanayisi",
+        "topics": [
+          "Fosil ve yenilenebilir enerji",
+          "Polimerler ve çevresel etkiler",
+          "Kimya sanayisi ve sürdürülebilirlik"
+        ]
+      }
+    ],
+    "Biyoloji": [
+      {
+        "name": "Sinir Sistemi",
+        "topics": [
+          "Nöron ve impuls iletimi",
+          "Merkezi ve çevresel sinir sistemi",
+          "Sinapslar ve refleksler"
+        ]
+      },
+      {
+        "name": "Endokrin Sistem",
+        "topics": [
+          "İç salgı bezleri ve hormonlar",
+          "Hormonların geri bildirimle düzenlenmesi",
+          "Sinir-endokrin ilişkisi"
+        ]
+      },
+      {
+        "name": "Duyu Organları",
+        "topics": [
+          "Göz ve görme",
+          "Kulak ve işitme-denge",
+          "Burun, dil ve deri reseptörleri"
+        ]
+      },
+      {
+        "name": "Destek ve Hareket Sistemi",
+        "topics": [
+          "Kemik ve eklem çeşitleri",
+          "Kas çeşitleri ve kasılma",
+          "İskelet-kas sağlığı"
+        ]
+      },
+      {
+        "name": "Sindirim Sistemi",
+        "topics": [
+          "Sindirim organları ve enzimler",
+          "Emilim ve besinlerin taşınması",
+          "Besin gruplarının sindirimi"
+        ]
+      },
+      {
+        "name": "Dolaşım ve Bağışıklık Sistemi",
+        "topics": [
+          "Kalp, damarlar ve kan",
+          "Kan grupları ve pıhtılaşma",
+          "Lenf sistemi ve bağışıklık"
+        ]
+      },
+      {
+        "name": "Solunum Sistemi",
+        "topics": [
+          "Solunum organları",
+          "Gaz alışverişi ve gaz taşınması",
+          "Hücresel solunumla ilişki"
+        ]
+      },
+      {
+        "name": "Boşaltım Sistemi",
+        "topics": [
+          "Böbrek ve nefron",
+          "İdrar oluşumu ve osmoregülasyon",
+          "Boşaltımın homeostazideki rolü"
+        ]
+      },
+      {
+        "name": "Üreme Sistemi ve Embriyonik Gelişim",
+        "topics": [
+          "Erkek ve dişi üreme sistemi",
+          "Gamet oluşumu ve döllenme",
+          "Embriyonik gelişim ve plasenta"
+        ]
+      },
+      {
+        "name": "Komünite ve Popülasyon Ekolojisi",
+        "topics": [
+          "Tür içi ve türler arası ilişkiler",
+          "Popülasyon dinamikleri",
+          "Ekolojik süksesyon ve biyolojik çeşitlilik"
+        ]
+      },
+      {
+        "name": "Genetik Şifre ve Protein Sentezi",
+        "topics": [
+          "DNA ve RNA’nın yapısı",
+          "Replikasyon, transkripsiyon ve translasyon",
+          "Genetik şifre ve mutasyon"
+        ]
+      },
+      {
+        "name": "Canlılarda Enerji Dönüşümleri",
+        "topics": [
+          "Fotosentez ve fotosentez hızına etki edenler",
+          "Hücresel solunum ve fermantasyon",
+          "ATP ve metabolizma"
+        ]
+      },
+      {
+        "name": "Bitki Biyolojisi",
+        "topics": [
+          "Bitki dokuları ve organları",
+          "Su-mineral taşınması ve terleme",
+          "Bitkilerde büyüme, hormonlar ve hareket",
+          "Bitkilerde eşeyli-eşeysiz üreme"
+        ]
+      },
+      {
+        "name": "Canlılar ve Çevre",
+        "topics": [
+          "Ekosistem enerji akışı ve madde döngüleri",
+          "Çevre sorunları ve sürdürülebilirlik",
+          "İnsan faaliyetlerinin ekosisteme etkisi"
+        ]
+      }
+    ]
+  }
+}

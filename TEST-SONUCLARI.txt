@@ -1,0 +1,13 @@
+YEREL DOĞRULAMA SONUÇLARI
+- index.html uygulama JavaScript'i: node --check PASS
+- api/coach.js: node --check PASS
+- api/health.js: node --check PASS
+- vercel.json JSON parse: PASS
+- mufredat-katalogu.json JSON parse: PASS
+- Katalog şeması kontrolü: PASS (TYT 10 ders, AYT 5 sayısal ders, toplam 183 ünite grubu; her grupta alt konu başlıkları var)
+- Kaynak ekleme kodunun statik kontrolü: PASS (TYT/AYT seçeneklerini branşa göre daraltma, ünite arama alanı, boş test alanlarını atlama, özel ünite satırı, tekrar eden ünite adını önleme)
+- Kaydedilen ünite ayrıntıları için optional topics alanı eklenmiştir; eski kayıtların topics alanı bulunmasa da mevcut kod çalışmaya devam eder.
+- Supabase tablo şeması değiştirilmedi.
+
+CANLI / GERÇEK UÇTAN UCA TEST YAPILMADI
+Gerçek Supabase oturumu, canlı Gemini API, Vercel deployment ve iki kullanıcılı senkronizasyon bu ortamda test edilmemiştir. Etkileşimli tarayıcı testi ortam kısıtı nedeniyle çalıştırılamadı. Anahtarlar pakete yazılmamıştır.
