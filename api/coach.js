@@ -86,14 +86,66 @@ module.exports = async function handler(req, res) {
     };
 
     let result = await requestModel(configuredModel);
-    let detail = String(result.json?.error?.message || '');
-    // If a saved Vercel environment variable points to a retired/invalid model,
-    // retry once with a currently documented stable Flash model.
-    if (!result.response.ok && configuredModel !== FALLBACK_MODEL &&
-        (result.response.status === 404 || /model.{0,40}(not found|not supported|does not exist|unavailable)|unknown model/i.test(detail))) {
-      result = await requestModel(FALLBACK_MODEL);
-      detail = String(result.json?.error?.message || '');
-    }
+let detail = String(result.json?.error?.message || '');
+
+if (
+  !result.response.ok &&
+  configuredModel !== FALLBACK_MODEL &&
+  (
+    result.response.status === 404 ||
+    result.response.status === 503 ||
+    /model.{0,40}(not found|not supported|does not exist|unavailable)|unknown model/i.test(detail)
+  )
+) {
+  console.warn(
+    'Gemini primary model failed; trying fallback:',
+    result.response.status,
+    detail.slice(0, 500)
+  );
+
+  result = await requestModel(FALLBACK_MODEL);
+  detail = String(result.json?.error?.message || '');
+}
+
+if (!result.response.ok) {
+  const status = result.response.status;
+
+  console.error(
+    'Gemini API final error:',
+    status,
+    JSON.stringify(result.json).slice(0, 1200)
+  );
+
+  if (status === 429 || /quota|rate.?limit|resource exhausted/i.test(detail)) {
+    return send(res, 429, {
+      error: 'Gemini kullanım sınırına ulaşıldı. Bir süre sonra tekrar dene.'
+    });
+  }
+
+  if (status === 401 || status === 403 ||
+      /api key not valid|invalid api key|permission denied/i.test(detail)) {
+    return send(res, 502, {
+      error: 'Gemini API anahtarı veya erişim izni kontrol edilmeli.'
+    });
+  }
+
+  if (status === 404 ||
+      /model.{0,40}(not found|not supported|does not exist|unavailable)|unknown model/i.test(detail)) {
+    return send(res, 502, {
+      error: 'Gemini modeli bulunamadı. GEMINI_MODEL ayarını kontrol et.'
+    });
+  }
+
+  if (status === 400) {
+    return send(res, 502, {
+      error: 'Gemini isteği kabul etmedi. Mesajını kısaltıp tekrar dene.'
+    });
+  }
+
+  return send(res, 502, {
+    error: `Gemini servisi yanıt vermedi (HTTP ${status}).`
+  });
+}
     if (!result.response.ok) {
       const status = result.response.status;
       if (status === 429 || /quota|rate.?limit|resource exhausted/i.test(detail)) {
